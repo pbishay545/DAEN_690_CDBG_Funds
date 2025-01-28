@@ -20,6 +20,7 @@ clone repository and pip install requirements
 ```bash
 pip install -r requirements.txt
 git clone https://github.com/username/repository_name.git
+```
 
 ## Data
 
