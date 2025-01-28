@@ -1,10 +1,10 @@
 
 ## Table of Contents:
-Purpos <br>
-Setup <br>
-Data <br>
-Analysis <br>
-Requirements <br>
+# Purpose <br>
+# Setup <br>
+# Data <br>
+# Analysis <br>
+# Requirements <br>
 
 
 ## Purpose
