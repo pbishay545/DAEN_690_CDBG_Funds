@@ -7,7 +7,7 @@ The ```streaming``` directory contains scripts for automating the ingestion and 
 
 ## Extract
 
-The extract directory includes tools for retrieving HUD-related award and transaction data from the USAspending API. These scripts make nested API calls to gather detailed information across multiple endpoints, enriching the dataset with granular funding details.
+The ```extract``` directory includes tools for retrieving HUD-related award and transaction data from the USAspending API. These scripts make nested API calls to gather detailed information across multiple endpoints, enriching the dataset with granular funding details.
 
 ## Utility
 
