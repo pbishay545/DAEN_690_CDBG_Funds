@@ -11,11 +11,11 @@ DATA_FILE = "puerto_rico_disasters_1950_2025.csv"
 TABLE_NAME = "puerto_rico_disasters"
 
 db_params = {
-    "host": "database-1.c7goeg04uy2n.us-east-1.rds.amazonaws.com",
-    "port": 5432,
+    "host": "POSTGRES ENDPOINT",
+    "port": "PORT",
     "user": "CDBG_DB",
-    "password": "cdbgcdbg",
-    "dbname": "postgres"
+    "password": "PASSWORD",
+    "dbname": "DATABASE"
 }
 
 def get_last_pull_date():
