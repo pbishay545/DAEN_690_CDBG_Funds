@@ -1,33 +1,3 @@
 
-## Table of Contents:
-### Purpose <br>
-### Setup <br>
-### Data <br>
-### Analysis <br>
-### Requirements <br>
 
-
-## Purpose
-This repository details the analysis conducted on tracking CDBG funds in Puerto Rico and its impact on housing reconstruction, repair, and relocation
-
-
-
-
-## Setup
-For installing system dependencies, it is advised to create a virtual environment
-
-clone repository and pip install requirements 
-```bash
-pip install -r requirements.txt
-git clone https://github.com/username/repository_name.git
-```
-
-## Data
-
-
-## Analysis
-
-
-## Requirements
-
-
+Data for Equitable Results: Tracking CDBG Funds in Puerto Rico is a data analytics capstone project conducted in collaboration with Sembrando Sentido, aiming to address transparency and accountability issues in the allocation of Community Development Block Grant – Disaster Recovery (CDBG-DR) funds. Following the devastation caused by Hurricanes Irma and Maria in 2017, the federal government allocated over $91 billion for recovery efforts, including approximately $2.9 billion specifically for Puerto Rico’s Repair, Reconstruction, and Relocation (R3) housing program. Despite substantial funding, only 6% of eligible homes had been rebuilt by mid-2021, revealing inefficiencies, bureaucratic delays, and data transparency gaps. Existing research highlights fragmented data sources and inadequate real-time monitoring, leading to ineffective resource distribution. This project addresses these issues by integrating transaction-level data from HUD's Monthly CDBG-DR Grant Financial and History Reports, USAspending.gov's Federal Awards and Transactions, and the Puerto Rico Department of Housing's Quarterly Performance Reports into a comprehensive analytical framework. A relational database schema was developed to unify these datasets, enabling streamlined financial tracking and comparative analysis across disaster recovery programs. Analytical techniques such as geospatial clustering, regression analysis, and linear optimization models were employed to identify patterns, predict funding needs, and suggest optimal resource allocation strategies. Interactive dashboards built exclusively in Tableau facilitate real-time monitoring and visualization of fund distributions and project outcomes. The analysis identified critical inefficiencies in fund allocation and provided actionable insights for policy improvements. The resulting data infrastructure is scalable and replicable, designed to enhance governmental decision-making and nonprofit oversight, and ensure equitable aid distribution. This framework can be adapted to other disaster-affected regions, significantly contributing to transparent, effective, and accountable management of public recovery resources.
