@@ -3,11 +3,11 @@ import pandas as pd
 
 # Database connection parameters
 db_params = {
-    "host": "database-1.c7goeg04uy2n.us-east-1.rds.amazonaws.com",
-    "port": 5432,
+    "host": "POSTGRES ENDPOINT",
+    "port": "PORT",
     "user": "CDBG_DB",
-    "password": "cdbgcdbg",
-    "dbname": "postgres"
+    "password": "PASSWORD",
+    "dbname": "DATABASE"
 }
 
 conn = psycopg2.connect(**db_params)
