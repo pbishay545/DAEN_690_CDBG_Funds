@@ -1,15 +1,19 @@
 # Introduction 
-The information detail efforts for Sembrando Sentido with providing accessable transparancy information with regards to government aid for natural disaster relief in Puerto Rico related to the R3 program (Repair, Reconstruction, and Relocation). This repository provides an overview dashboard accessability and access to streaming and extraction data for processing and pushing data to our centralized database for providing the dashboarding portal for assessing CDBG funding throughout the different stages of the process. 
+This repository supports Sembrando Sentido's mission to promote accessible transparency regarding government disaster relief aid in Puerto Rico, specifically focused on the R3 Program (Repair, Reconstruction, and Relocation). It includes tools for building an interactive dashboard and managing a data pipeline that extracts, processes, and streams data into a centralized PostgreSQL database. The goal is to track and assess the flow of CDBG funds across various stages of the recovery process.
 
 ## Streaming
 
-The streaming directory contains files for pushing and updating Postgres tables directly through scraping and performing regular checks against the remote table and updating new data. The streaming process mostly brings in data from Stage 4 and Stage 5, as well as FEMA API data for tracking disaster information. 
+The ```streaming``` directory contains scripts for automating the ingestion and updating of PostgreSQL tables. These scripts regularly scrape data and sync with remote sources, primarily focusing on Stage 4 and Stage 5 program data, as well as FEMA API data for real-time tracking of disaster events. 
 
 ## Extract
 
-The extract directory contains files for accessing USASpending data through API calls for gathering HUD Award Data and Transaction information for awards using nested api calls. 
+The extract directory includes tools for retrieving HUD-related award and transaction data from the USAspending API. These scripts make nested API calls to gather detailed information across multiple endpoints, enriching the dataset with granular funding details.
 
 ## Utility
+
+The ```utility``` directory houses general-purpose tools for processing structured JSON data—typically returned from API responses—and reshaping it into relational table formats suitable for database storage. It also includes automated quality checks across datasets, identifying missing values, outliers, type inconsistencies, imbalances in categorical variables, and conformity issues.
+
+## Findings
 
 
 Data for Equitable Results: Tracking CDBG Funds in Puerto Rico is a data analytics capstone project conducted in collaboration with Sembrando Sentido, aiming to address transparency and accountability issues in the allocation of Community Development Block Grant – Disaster Recovery (CDBG-DR) funds. Following the devastation caused by Hurricanes Irma and Maria in 2017, the federal government allocated over $91 billion for recovery efforts, including approximately $2.9 billion specifically for Puerto Rico’s Repair, Reconstruction, and Relocation (R3) housing program. 
