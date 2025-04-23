@@ -1,4 +1,16 @@
-The efforts detail efforts for Sembrando Sentido with providing accessable transparancy information with regards to government aid for natural disaster relief in Puerto Rico related to the R3 program (Repair, Reconstruction, and Relocation). This repository provides an overview dashboard accessability and access to streaming and extraction data for processing and pushing data to our centralized database for providing the dashboarding portal for assessing CDBG funding throughout the different stages of the process. 
+# Introduction 
+The information detail efforts for Sembrando Sentido with providing accessable transparancy information with regards to government aid for natural disaster relief in Puerto Rico related to the R3 program (Repair, Reconstruction, and Relocation). This repository provides an overview dashboard accessability and access to streaming and extraction data for processing and pushing data to our centralized database for providing the dashboarding portal for assessing CDBG funding throughout the different stages of the process. 
+
+## Streaming
+
+The streaming directory contains files for pushing and updating Postgres tables directly through scraping and performing regular checks against the remote table and updating new data. The streaming process mostly brings in data from Stage 4 and Stage 5, as well as FEMA API data for tracking disaster information. 
+
+## Extract
+
+The extract directory contains files for accessing USASpending data through API calls for gathering HUD Award Data and Transaction information for awards using nested api calls. 
+
+## Utility
+
 
 Data for Equitable Results: Tracking CDBG Funds in Puerto Rico is a data analytics capstone project conducted in collaboration with Sembrando Sentido, aiming to address transparency and accountability issues in the allocation of Community Development Block Grant – Disaster Recovery (CDBG-DR) funds. Following the devastation caused by Hurricanes Irma and Maria in 2017, the federal government allocated over $91 billion for recovery efforts, including approximately $2.9 billion specifically for Puerto Rico’s Repair, Reconstruction, and Relocation (R3) housing program. 
 
