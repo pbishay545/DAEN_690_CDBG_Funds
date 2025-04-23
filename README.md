@@ -13,6 +13,45 @@ The ```extract``` directory includes tools for retrieving HUD-related award and 
 
 The ```utility``` directory houses general-purpose tools for processing structured JSON data—typically returned from API responses—and reshaping it into relational table formats suitable for database storage. It also includes automated quality checks across datasets, identifying missing values, outliers, type inconsistencies, imbalances in categorical variables, and conformity issues.
 
+## Dashboard
+This repository supports an interactive dashboard built in Tableau to analyze the Community Development Block Grant – Disaster Recovery (CDBG-DR) program in Puerto Rico. It integrates multiple datasets to provide transparent, real-time insights into the flow, allocation, and performance of disaster recovery funds.
+
+The dashboard brings together diverse data sources:
+
+* HUD Grant History, Financials, and Expenditures
+
+* PRDOH Quarterly Performance Reports (QPRs)
+
+* Federal award data from USAspending.gov
+
+All HUD and PRDOH datasets are unified using the Grant Number as a primary key, enabling one-to-many relationships that preserve granularity and ensure referential integrity. USAspending data, which lacks a direct grant identifier, is modeled separately but can be filtered contextually by geography and year.
+
+This schema design allows Tableau to:
+
+*Avoid data duplication
+
+*Maintain native granularity
+
+* Enable cross-source comparisons using shared dimensions (e.g., Grant Number, Year)
+
+Key Visualizations:
+
+* Grant Award vs Drawdown: Compare total allocated vs spent per grant
+
+* Spending Compliance Over Time: Track annual compliance against required spending targets
+
+* Performance by Activity/Grantee: Identify underperforming grants or concentrated expenditures
+
+* USAspending Side-by-Side: Visualize federal obligations in parallel with HUD drawdowns
+
+* Monthly Trends in Obligations and Subawards
+
+* Top Grants & Subrecipients by Amount
+
+* Use of Funds by Object Class
+
+* Spending Gaps by Grant
+
 ## Findings
 
 
