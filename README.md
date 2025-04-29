@@ -62,3 +62,12 @@ Despite substantial funding, only 6% of eligible homes had been rebuilt by mid-2
 A relational database schema was developed to unify these datasets, enabling streamlined financial tracking and comparative analysis across disaster recovery programs. Analytical techniques such as geospatial clustering, regression analysis, and linear optimization models were employed to identify patterns, predict funding needs, and suggest optimal resource allocation strategies. Interactive dashboards built exclusively in Tableau facilitate real-time monitoring and visualization of fund distributions and project outcomes. The analysis identified critical inefficiencies in fund allocation and provided actionable insights for policy improvements. 
 
 The resulting data infrastructure is scalable and replicable, designed to enhance governmental decision-making and nonprofit oversight, and ensure equitable aid distribution. This framework can be adapted to other disaster-affected regions, significantly contributing to transparent, effective, and accountable management of public recovery resources.
+
+## Dashboards
+The dashboards are hosted on public Tableau instances for different types of dashboards 
+* [R3 Map](https://public.tableau.com/app/profile/biswajith.yetukuri/viz/R3_17458994342260/Dashboard1)
+* [R3 Contracts and Managers](R3 Contracts and Managers)
+* [Quaterly Reports](https://public.tableau.com/app/profile/sai.dhanush.sreedharagatta5960/viz/Quaterlyreportsdashboard/Dashboard1?publish=yes)
+* [HUD](https://public.tableau.com/app/profile/sai.dhanush.sreedharagatta5960/viz/HUDDashboard/Dashboard1?publish=yes)
+* [USA Spending](https://public.tableau.com/app/profile/sai.dhanush.sreedharagatta5960/viz/USASpending_1/Dashboard1?publish=yes)
+* 
