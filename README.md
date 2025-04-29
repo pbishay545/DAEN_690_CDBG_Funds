@@ -65,8 +65,9 @@ The resulting data infrastructure is scalable and replicable, designed to enhanc
 
 ## Dashboards
 The dashboards are hosted on public Tableau instances for different types of dashboards 
-* [R3 Map](https://public.tableau.com/app/profile/biswajith.yetukuri/viz/R3_17458994342260/Dashboard1)
+* [R3 Contracts and Managers](https://public.tableau.com/app/profile/sai.sriram.dubasi/viz/R3ContractsandManagers/R3ContractsandManagers?publish=yes)
 * [R3 Map](https://public.tableau.com/app/profile/biswajith.yetukuri/viz/R3_17458994342260/Dashboard1)
 * [HUD](https://public.tableau.com/app/profile/sai.dhanush.sreedharagatta5960/viz/HUDDashboard/Dashboard1?publish=yes)
 * [USA Spending](https://public.tableau.com/app/profile/sai.dhanush.sreedharagatta5960/viz/USASpending_1/Dashboard1?publish=yes)
+* [Quarterly Reports](https://public.tableau.com/app/profile/sai.dhanush.sreedharagatta5960/viz/Quaterlyreportsdashboard/Dashboard1?publish=yes)
   
